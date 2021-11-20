@@ -1,6 +1,6 @@
 <div align="center">
 
-![cuia](static/cuia.png)
+![cuia](https://raw.githubusercontent.com/getcuia/getcuia.github.io/main/static/cuia.png)
 
 </div>
 

@@ -1,4 +1,4 @@
-# getcuia.github.io
+# cuia
 
 getcuia.github.io
 

@@ -3,7 +3,11 @@
     import hljs from "highlight.js/lib/core";
 
     import bash from "highlight.js/lib/languages/bash";
+    import python from "highlight.js/lib/languages/python";
+    import shell from "highlight.js/lib/languages/shell";
     hljs.registerLanguage("bash", bash);
+    hljs.registerLanguage("python", python);
+    hljs.registerLanguage("console", shell);
 
     marked.setOptions({
         highlight: (code: string, lang: string) => {

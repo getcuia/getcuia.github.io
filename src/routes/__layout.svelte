@@ -7,12 +7,12 @@
 <style>
     @import url("https://gitcdn.link/cdn/dohliam/dropin-minimal-css/gh-pages/min/github-markdown.min.css");
 
-    :global(.logo) {
+    :global(.hero) {
         margin: 4em 0;
     }
 
     @media (max-width: 480px) {
-        :global(.logo) {
+        :global(.hero) {
             width: 50%;
         }
     }

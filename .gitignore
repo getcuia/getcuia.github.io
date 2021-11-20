@@ -1,3 +1,9 @@
+# Svelte
+.DS_Store
+/build
+/.svelte-kit
+/package
+
 # Logs
 logs
 *.log

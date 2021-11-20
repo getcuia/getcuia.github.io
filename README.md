@@ -1,7 +1,5 @@
 <div align="center">
-
-![cuia](https://raw.githubusercontent.com/getcuia/getcuia.github.io/main/static/cuia.png)
-
+    <img src="https://raw.githubusercontent.com/getcuia/getcuia.github.io/main/static/cuia.png" alt="cuia" />
 </div>
 
 > A delightful tiny framework for building reliable text-based applications.

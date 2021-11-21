@@ -1,4 +1,6 @@
 <script lang="ts" context="module">
+    import { blur } from "svelte/transition";
+
     import { marked } from "marked";
     import hljs from "highlight.js/lib/core";
 
@@ -31,8 +33,10 @@
     const readme = fetchReadme(url);
 </script>
 
-{#await readme then html}
-    <p>{@html html}</p>
-{:catch error}
-    <p>{error}</p>
-{/await}
+<main transition:blur>
+    {#await readme then html}
+        {@html html}
+    {:catch error}
+        <p>{error}</p>
+    {/await}
+</main>

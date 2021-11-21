@@ -1,6 +1,9 @@
-<script lang="ts">
+<script lang="ts" context="module">
+    import Projects from "../Projects.svelte";
     import "highlight.js/styles/github.css";
 </script>
+
+<Projects />
 
 <slot />
 

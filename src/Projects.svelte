@@ -1,8 +1,8 @@
 <nav>
     <ul>
-        <li><a href="/">🏡 home</a></li>
-        <li><a href="/tldr/stransi">🖍️ stransi</a></li>
-        <li><a href="/tldr/ochre">🏜️ ochre</a></li>
+        <li><a rel="external" href="/">🏡 home</a></li>
+        <li><a rel="external" href="/tldr/stransi">🖍️ stransi</a></li>
+        <li><a rel="external" href="/tldr/ochre">🏜️ ochre</a></li>
     </ul>
 </nav>
 

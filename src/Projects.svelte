@@ -6,6 +6,9 @@
 </nav>
 
 <style>
+    nav {
+        margin-bottom: 4em;
+    }
     li {
         display: inline-block;
     }

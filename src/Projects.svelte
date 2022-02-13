@@ -1,8 +1,18 @@
+<script>
+    import { page } from "$app/stores";
+
+    const nav = [
+        {title: "🏡 home", path: "/"},
+        {title: "🖍️ stransi", path: "/tldr/stransi"},
+        {title: "🏜️ ochre", path: "/tldr/ochre"},
+    ];
+</script>
+
 <nav>
     <ul>
-        <li><a rel="external" href="/">🏡 home</a></li>
-        <li><a rel="external" href="/tldr/stransi">🖍️ stransi</a></li>
-        <li><a rel="external" href="/tldr/ochre">🏜️ ochre</a></li>
+        {#each nav as link}
+            <li><a class:active={$page.path === link.path} rel="external" href={link.path}>{link.title}</a></li>
+        {/each}
     </ul>
 </nav>
 
@@ -18,5 +28,10 @@
     }
     li:last-child:after {
         content: "";
+    }
+
+    .active {
+        color: gray;
+        text-decoration: none;
     }
 </style>
